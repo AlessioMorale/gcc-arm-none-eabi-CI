@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu:20.04
 RUN apt-get update -qq && apt-get install -y software-properties-common --no-install-recommends && \
     add-apt-repository ppa:git-core/ppa -y && \
     apt-get update -qq && \
